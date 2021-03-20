@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import noAvatar from '../images/noavatar.svg';
+import noAvatar from '../../images/noavatar.svg';
 
 const FriendListItem = ({ avatar, name, isOnline }) => (
   <li className="item">
