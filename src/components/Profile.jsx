@@ -1,11 +1,16 @@
 // import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import noAvatar from '../images/noavatar.svg';
 
-const Profile = ({avatar, name, tag, location, stats}) => (
+const Profile = ({ avatar, name, tag, location, stats }) => (
   <div className="profile">
     <div className="description">
-      <img src={avatar} alt="Аватар пользователя" className="avatar" width="150" />
+      <img
+        src={avatar}
+        alt="Аватар пользователя"
+        className="avatar"
+        width="150"
+      />
       <p className="name">{name}</p>
       <p className="tag">@{tag}</p>
       <p className="location">{location}</p>
@@ -29,15 +34,15 @@ const Profile = ({avatar, name, tag, location, stats}) => (
 );
 
 Profile.defaultProps = {
-    avatar: noAvatar,
-}
+  avatar: noAvatar,
+};
 
 Profile.propTypes = {
-    avatar: PropTypes.string,
-    name: PropTypes.string.isRequired,
-    tag: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
-    stats: PropTypes.objectOf(PropTypes.number).isRequired, // Под вопросом
-}
+  avatar: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  stats: PropTypes.objectOf(PropTypes.number).isRequired, // Под вопросом
+};
 
 export default Profile;

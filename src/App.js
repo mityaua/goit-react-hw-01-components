@@ -24,7 +24,7 @@ const App = () => {
 
       <Statistics title="Upload stats" stats={statisticalData} />
 
-      <FriendList friends={friends} />
+      <FriendList_qqqqq friends={friends} />
 
       <TransactionHistory items={transactions} />
     </>
