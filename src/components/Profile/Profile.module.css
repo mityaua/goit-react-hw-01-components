@@ -8,10 +8,14 @@
 
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
     1px 4px 6px rgb(0 0 0 / 16%);
+
+  overflow: hidden;
 }
 
 .description {
   padding: 25px 0;
+  border-bottom: 1px solid #cfcfd0;
+
   text-align: center;
 }
 
@@ -41,11 +45,19 @@
 .stats {
   display: flex;
   justify-content: space-around;
-  padding: 15px 0;
 
   text-align: center;
 
   background-color: #f3f6f9;
+}
+
+.item {
+  width: 33.3%;
+  padding: 15px;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid #cfcfd0;
 }
 
 .label {

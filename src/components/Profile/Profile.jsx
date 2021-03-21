@@ -19,15 +19,15 @@ const Profile = ({ avatar, name, tag, location, stats }) => (
     </div>
 
     <ul className={styles.stats}>
-      <li>
+      <li className={styles.item}>
         <span className={styles.label}>Followers</span>
         <span className={styles.quantity}>{stats.followers}</span>
       </li>
-      <li>
+      <li className={styles.item}>
         <span className={styles.label}>Views</span>
         <span className={styles.quantity}>{stats.views}</span>
       </li>
-      <li>
+      <li className={styles.item}>
         <span className={styles.label}>Likes</span>
         <span className={styles.quantity}>{stats.likes}</span>
       </li>
