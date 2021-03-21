@@ -16,29 +16,36 @@
   overflow: hidden;
 }
 
-thead {
-  background-color: #00bcd5;
-}
-
-th {
-  width: 33.3%;
-
-  padding: 15px;
-
-  color: #ffffff;
+.transaction-head {
   border: 0px solid #b5b5b5;
+
+  background-color: #00bcd5;
+  color: #ffffff;
 
   text-transform: uppercase;
 }
 
-td {
-  padding: 15px;
-
-  border: 0px solid #b5b5b5;
-
-  text-transform: capitalize;
+.transaction-title {
+  width: 33.3%;
+  padding: 15px 5px;
 }
 
-tr:nth-child(even) {
-  background: #ecf1f4;
+.transaction-cell {
+  padding: 15px 5px;
+
+  text-transform: capitalize;
+
+  transition: background-color 250ms linear;
+
+  cursor: pointer;
+}
+
+.transaction-cell:hover,
+.transaction-cell:focus {
+  background-color: #c9dcdf;
+  transition: background-color 250ms linear;
+}
+
+.transaction-row:nth-child(even) {
+  background-color: #ecf1f4;
 }

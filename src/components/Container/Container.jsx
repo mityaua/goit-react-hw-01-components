@@ -10,7 +10,7 @@ Container.defaultProps = {
 };
 
 Container.propTypes = {
-  children: PropTypes.node, // Под вопросом
+  children: PropTypes.node,
 };
 
 export default Container;

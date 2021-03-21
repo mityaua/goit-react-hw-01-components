@@ -8,7 +8,7 @@ Layout.defaultProps = {
 };
 
 Layout.propTypes = {
-  children: PropTypes.node, // Под вопросом
+  children: PropTypes.node,
 };
 
 export default Layout;

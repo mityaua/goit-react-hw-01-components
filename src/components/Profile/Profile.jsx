@@ -1,4 +1,3 @@
-// import React from 'react';
 import PropTypes from 'prop-types';
 import noAvatar from '../../images/noavatar.svg';
 
@@ -44,7 +43,7 @@ Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  stats: PropTypes.objectOf(PropTypes.number).isRequired, // Под вопросом
+  stats: PropTypes.objectOf(PropTypes.number).isRequired,
 };
 
 export default Profile;
