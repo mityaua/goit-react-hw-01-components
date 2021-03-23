@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from '../Statistics/Statistics.module.css';
 
-function generaterandomColor() {
+function generateRandomColor() {
   let color = '#';
   for (let i = 0; i < 3; i++)
     color += (
@@ -19,7 +19,7 @@ const Statistics = ({ title, stats }) => (
         <li
           className={styles.item}
           style={{
-            backgroundColor: generaterandomColor(),
+            backgroundColor: generateRandomColor(),
           }}
           key={id}
         >
