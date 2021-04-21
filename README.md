@@ -20,7 +20,7 @@
 
 ## Задания
 
-- [Задание 1 - Профиль социальной сети](./social-profile/)
-- [Задание 2 - Секция статистики](./statistics/)
-- [Задание 3 - Список друзей](./friend-list/)
-- [Задание 4 - История транзакций](./transaction-history/)
+- [Задание 1 - Профиль социальной сети](https://github.com/goitacademy/react-homework/blob/master/homework-01/social-profile/)
+- [Задание 2 - Секция статистики](https://github.com/goitacademy/react-homework/blob/master/homework-01/statistics/)
+- [Задание 3 - Список друзей](https://github.com/goitacademy/react-homework/blob/master/homework-01/friend-list/)
+- [Задание 4 - История транзакций](https://github.com/goitacademy/react-homework/blob/master/homework-01/transaction-history/)
